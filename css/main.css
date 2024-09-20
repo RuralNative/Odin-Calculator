@@ -36,9 +36,37 @@ body {
     margin-top: 24px;
     padding: 8px;
     flex-direction: row;
-    justify-content: flex-end;
-    align-content: flex-end;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     height: 70%;
     width: 90%;
+    border: 2px solid burlywood;
+}
+
+.num-buttons {
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 8px;
+    margin-right: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 95%;
+    width: 70%;
+    border: 2px solid burlywood;
+}
+
+.operator-buttons {
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 95%;
+    width: 20%;
     border: 2px solid burlywood;
 }
